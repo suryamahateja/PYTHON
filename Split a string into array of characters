@@ -1,0 +1,3 @@
+ text = "hello" 
+                    characters = list(text) 
+                     print(characters)
