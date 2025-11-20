@@ -1,0 +1,10 @@
+n = int(input("Enter a number: "))
+temp = n
+result = 0
+
+while temp > 0:
+    digit = temp % 10
+    result += digit ** 3
+    temp //= 10
+
+print("Armstrong Number" if result == n else "Not an Armstrong Number")
